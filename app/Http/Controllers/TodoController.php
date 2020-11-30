@@ -8,6 +8,7 @@ use App\Todo;
 class TodoController extends Controller
 {
     //
+    //
     public function index()
     {
         $todos=Todo::all()->where('completed',0);
